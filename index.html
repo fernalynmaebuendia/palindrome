@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Palindrome</h1>
+        
+        <div class="row">
+            <div class="column column-left">
+                <h2>What is Palindrome?</h2>
+                <p>A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. The word “palindrome” was first coined by the English playwright Ben Jonson in the 17th century, from the Greek roots palin (“again”) and dromos (“way, direction”). — src. Wikipedia</p>
+                <br><br>
+                <h3>Sample Palindrome</h3>
+                <ul>
+                    <li><strong>palindrome(“race car”)</strong> should return true</li>
+                    <li><strong>palindrome(“not a palindrome”)</strong> should return false</li>
+                    <li><strong>palindrome(“A man, a plan, a canal. Panama”)</strong> should return true</li>
+                    <li><strong>palindrome(“never odd or even”)</strong> should return true</li>
+                    <li><strong>palindrome(“nope”)</strong> should return false</li>
+                    <li><strong>palindrome(“almostomla”)</strong> should return false</li>
+                    <li><strong>palindrome(“My age is 0, 0 si ega ym.”)</strong> should return true</li>
+                    <li><strong>palindrome(“1 eye for of 1 eye.”)</strong> should return false</li>
+                    <li><strong>palindrome(“0_0 (: /-\ :) 0–0”)</strong> should return true</li>
+                </ul>
+            </div>
+    
+            <div class="column column-right">
+                <label for="inputText1">Check if the word is Palindrome: </label>
+                <p style="font-style: italic; font-size: 14px;">(Using for loop)</p><br>
+                <input type="text" id="inputText1">
+                <button onclick="Palindrome1()">Check</button>
+                <p id="showResult1"></p>
+
+                <br><br><br>    
+                <label for="inputText2">Check if the word is Palindrome: </label>
+                <p style="font-style: italic; font-size: 14px;">(Using Built-In Functions - replace(), split(), reverse(), join(), toLowerCase())</p><br>
+                <input type="text" id="inputText2">
+                <button onclick="Palindrome2()">Check</button>
+                <p id="showResult2"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="palindrome.js"></script>
+</body>
+</html>

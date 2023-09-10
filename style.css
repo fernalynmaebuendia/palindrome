@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px 10% 0 10%;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.row {
+    padding-top: 5%;
+    display: flex;
+}
+
+.column {
+    flex-basis: 50%;
+}
+
+.column-left {
+    padding-right: 5%;
+}
+
+.column-left ul {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.column-right {
+    padding-left: 5%;
+}
+
+input {
+    width: 40%;
+}
+
+#showResult1, #showResult2 {
+    padding-top: 5px;
+}
